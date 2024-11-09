@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Músicas Brasileiras</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1>Música Brasileira</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#curiosidade">Curiosidade</a></li>
+                <li><a href="#artistas">Artistas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section id="historia" class="section">
+            <h1>História da Música Brasileira</h1>
+            <p>A música brasileira tem uma história rica e diversificada, influenciada por culturas indígenas, africanas e europeias.</p>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2DREhftHdD8pRmNdSs6nyF?utm_source=generator&theme=0" 
+            width="50%" height="252" frameBorder="0" allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe><br><br>
+            <button onclick="mostrarAlerta()">Saiba mais</button>
+        </section>
+
+        <section id="curiosidade" class="section hover-effect">
+            <h2>Curiosidades</h2>
+            <ul>
+                <p>Bethânia, Caetano, Gal e Gilberto Gil já tiveram uma espécie de "banda" chamada "os mais doces Bárbaros"</p>
+                <p>Esse nome foi pensado por Gal e Caetano, pois os outros países, na época da ditadura, viam o Brasil como terra de Bárbaros</p>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7jIbEMTIkCdsphOOZdIOLG?utm_source=generator" 
+                  width="50%" height="252" frameBorder="0" allowfullscreen="" 
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <p>Ainda na época da ditadura, não era possível se expressar com as músicas, qualquer música que falava do governo era censurada</p>
+                <p>Dessa forma, artistas como Cetano, Chico Buarque, Gal, Gilberto, Elis Regina, Rita Lee e entre outros faziam músicas com dupla interpretação</p><br>
+                <p>Um exemplo disso é a música Carcará</p>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5E4xOrXaLsApvCSqleHT46?utm_source=generator" 
+                  width="50%" height="252" frameBorder="0" allowfullscreen="" 
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <p>A música trata sobre a forma que o governo abusava do povo nordestino, colhendo impostos abusivos deixando a população morrer de fome</p>
+                <p>Inclusive, essa música que startou a carreira de Bethânia, o primeiro show dela foi no teatro Opinião cantando essa música polêmica da época</p>
+                <iframe width="660" height="415" src="https://www.youtube.com/embed/T3Dfd3KHI30?si=biAwEqjG2SdgJ6j7" 
+                  title="YouTube video player" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
+                <p>Outra música bem polêmica é a música "Calice" de Chico Buarque e Milton Nascimento</p>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0VUgbCK0k8QWGpLiEV8YYZ?utm_source=generator" 
+                  width="50%" height="252" frameBorder="0" allowfullscreen="" 
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <p>A música foi censurada pela ditadura, sendo liberada cinco anos depois do seu lançamento. Trata-se de uma canção de protesto que ilustra, a repressão e a violência do governo autoritário.</p>
+                <p>Um exemplo é a frase da música tem que "engolir a labuta", tratando-se do trabalho pesado e mal remunerado, de que a opressão que já se tornou rotina.</p><br>
+                <p>Nessa mesma linha, tem a música "construção" que basicamente vai trazer uma reflexão de que para o governo somos úteis apenas quando servimos de mão de obra</p>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3FIuBxOxuQ6kYy8JO0gq2a?utm_source=generator" 
+                  width="50%" height="252" frameBorder="0" allowfullscreen="" 
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </ul>
+            <img src="mariabethania_2.jpg" alt="Artistas Famosos" class="image"><br><br>
+            <button onclick="ocultarElementos()">Ocultar Gêneros</button>
+        </section>
+
+        <section id="artistas" class="section hover-effect">
+            <h1>Meus artistas favoritos</h1>
+            <div id="artistas-lista">
+                <h2>Maria Bethânia</h2>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1ddeP7G76wscmc0RH5sjVA?utm_source=generator" 
+                width="50%" height="252" frameBorder="0" allowfullscreen="" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <h2>Caetano Veloso</h2>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4cMbAhrwsZsAHceaGvZy9y?utm_source=generator" 
+            width="50%" height="252" frameBorder="0" allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <h2>Gal Costa</h2>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1viMg0yGmgWy1EeR7CNeyF?utm_source=generator" 
+            width="50%" height="252" frameBorder="0" allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <h2>Gilberto Gil</h2>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7q5PZjcIIKaOZcGbGDCiQx?utm_source=generator" 
+            width="50%" height="252" frameBorder="0" allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <h2>Chico Buarque</h2>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6xTxXhEXQyJJGlQtGSNsIp?utm_source=generator" 
+            width="50%" height="252" frameBorder="0" allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            
+            <button onclick="mostrarElementos()">Mostrar Artistas</button>
+            <div class="video-container">
+                <h3>Esse foi o dia que tive o prazer de conhecer esses dois grandes nomes da música Brasileira</h3>
+                <iframe width="660" height="415" src="https://www.youtube.com/embed/66oSDPTB2oQ?si=UdopSAOImfwTE5Ud" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+        </section>
+    </main>
+    
+    <section id="galeria" class="section">
+        <h1>Galeria de Fotos</h1>
+        <div class="galeria-container">
+            <img src="Beth.jpeg" alt="Maria Bethânia em show">
+            <img src="Beth2.jpeg" alt="Maria Bethânia com Caetano Veloso">
+            <img src="Bethsozinha.jpeg" alt="Show histórico de Bethânia">
+            <img src="Caetano.jpeg" alt="Maria Bethânia em estúdio">
+            <img src="umindio.jpeg" alt="Maria Bethânia em estúdio">
+            <img src="Tudodenovo.jpeg" alt="Maria Bethânia em estúdio">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2024 Música Brasileira. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
